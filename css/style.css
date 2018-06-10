@@ -1,6 +1,7 @@
 
 body {
 	font-family:'Open Sans', 'sans-serif';
+	background: #fffbfb;
 }
 .navbar {
 	background: rgba(0, 0, 0, 0.2);
@@ -222,13 +223,18 @@ filter:opacity(.7);
 	font-weight:400;
 }
 
+p {
+	    font-weight: 300;
+}
+
 .emergency {
 	position:absolute;
 	bottom: 10px;
     right: 10px;
     z-index: 3;
-   
 }
+
+
 .emergency a {
 	 opacity:.7;
 }
@@ -242,13 +248,25 @@ filter:opacity(.7);
     margin-bottom: 5px;
 }
 
+.emergency-btn .text {
+	display: inline-block;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.emergency-btn .number {
+	display: inline-block;
+	padding-top: 5px;
+}
+
 .second-section, .third-section, .fourth-section {
-	padding-top:110px;
+	padding-top:80px;
 	
 }
 
 .second-section h2, .third-section h2, .fourth-section h2 {
-	margin-bottom:110px;
+	margin-bottom: 80px;
 	position:relative;
 	text-align:center;
 }
@@ -277,6 +295,7 @@ filter:opacity(.7);
 	font-size: 18px;
     font-weight: 600;
     text-transform:uppercase;
+    margin-bottom: 3px;
 }
 
 .subtitle {
@@ -285,8 +304,87 @@ filter:opacity(.7);
 }
 
 .left-col img {
-	height:600px;
+	border-radius:10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.owl-item {
+	min-height: 250px!important;
+}
+
+.cta .left, .cta .right {
+	padding: 30px 0;
+	min-height: 290px;
+}
+.cta  .left{
+background-color:#F1f1f1;
+
+}
+
+.cta .right {
+	    background: #d5d4da;
+}
+.cta-container {
+	cursor:pointer;
+}
+
+.cta-container .fa {
+	font-size:40px;
+	margin-bottom:15px;
+}
+
+.phone-number {
+	font-size: 30px;
+    font-weight: 300;
+}
+.cta-btn {
+	font-size: 30px;
+    font-weight: 300;
+    text-decoration:none;
+}
+
+.cta-btn:hover {
+	text-decoration:none;
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+	background-color: #3086e3;
+    padding-top: 50px;
+}
+footer ul {
+	margin:0;
+	padding:0;
+}
+footer li {
+	list-style-type:none;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+footer a, footer h5, .footer-text{
+	color:white;
+}
+
+footer a:hover {
+	color:#f1f1f1;
+}
+
+
+
+
+.watermark {
+	font-size:12px;
+	color:white;
+}
+
 
 
 @media all and (max-width:1200px) {
@@ -351,6 +449,11 @@ border-bottom:1px solid #f1f1f1;
 .custom-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	color:black;
 }
+
+	footer .links-container {
+	padding-bottom:40px;
+	
+}
 }
 
 
@@ -375,7 +478,13 @@ border-bottom:1px solid #f1f1f1;
 	.owl-dots {
 		display:none;
 	}
-	
+
+	.cta-btn {
+		    font-size: 25px;
+    text-align: center;
+    width: 100%;
+	}
+
 }
 
 @media all and (max-width:360px) {
