@@ -79,8 +79,10 @@ font-weight: 100;
 
 .homepage-wrapper {
 	position:relative;
-	height:100vh;
-	min-height:600px;
+	overflow-x:hidden;
+}
+
+.owl-item {
 	overflow:hidden;
 }
 
@@ -88,6 +90,7 @@ font-weight: 100;
 .slider-item {
 	height:100vh;
 	position:relative;
+	min-height: 600px;
 }
 
 .slider-item:before {
