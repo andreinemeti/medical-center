@@ -11,6 +11,7 @@
 
 
 
+
 // home slider
   $('.home-slider').owlCarousel({
     loop:true,
@@ -84,3 +85,27 @@
   });
 
 
+
+
+
+
+// var $nav = $(".navbar");
+// var lastScrollTop = 0;
+// $(window).scroll(function(event){
+//    var st = $(this).scrollTop();
+//    if (st > lastScrollTop){
+//         $nav.removeClass('scrolled', $(this).scrollTop() > $nav.height());
+//         $nav.css({
+//            visibility: 'hidden',
+          
+//          });
+//    } else {
+//          $nav.addClass('scrolled', $(this).scrollTop() > $nav.height()); 
+//          $nav.css({
+//            visibility: 'visible',
+          
+//          });
+
+//    }
+//    lastScrollTop = st;
+// });

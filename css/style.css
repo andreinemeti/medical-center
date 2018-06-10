@@ -6,10 +6,16 @@ body {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-
-
 .navbar-brand,.navbar-brand:hover {
 	color:white;
+}
+
+
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.2);
+  transition: background-color 200ms linear;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .15);
 }
 
 
@@ -24,6 +30,8 @@ body {
     font-size: 14px;
     color: white;
 }
+
+
 
 .navbar-nav .dropdown-menu {
 	top: 50px;
@@ -51,12 +59,15 @@ body {
 .custom-toggler[aria-expanded="true"] .navbar-toggler-icon {
 background-image: none;
 transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .custom-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 content:'+';
 color: white;
-font-size: 30px;
+font-size: 45px;
 font-weight: 100;
 }
 
@@ -82,14 +93,7 @@ font-weight: 100;
 	overflow-x:hidden;
 }
 
-.owl-item {
 
-}
-
-.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
-    -ms-touch-action: auto;
-        touch-action: auto;
-}
 
 
 .slider-item {
@@ -187,6 +191,11 @@ filter:opacity(.7);
   background: #007bff;
 }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
 
 
 .main-text {
@@ -275,6 +284,10 @@ filter:opacity(.7);
 	color:#868e96;
 }
 
+.left-col img {
+	height:600px;
+}
+
 
 @media all and (max-width:1200px) {
 	.first-item {
@@ -297,6 +310,51 @@ filter:opacity(.7);
 	}
 	
 }
+
+
+@media all and (max-width:767px) {
+
+	.main-text {
+		    margin-top: 40%;
+	}
+
+	.navbar-brand, .navbar-brand:hover {
+    color: #2168a8;
+}
+
+ul.navbar-nav {
+padding:30px 0;
+}
+
+
+	.navbar .dropdown-menu {
+background:white;
+box-shadow:none;
+border-bottom:1px solid #f1f1f1;
+}
+
+.navbar, .navbar.scrolled {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, .15);
+	background: white;
+}
+
+.navbar .nav-link, .navbar .dropdown-menu a {
+	color:black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      background-size: 80%;
+
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	color:black;
+}
+}
+
+
+
 
 
 @media all and (max-width:480px) {
