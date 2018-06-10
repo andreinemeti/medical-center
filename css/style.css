@@ -277,8 +277,10 @@ p {
 	border-bottom:4px solid blue;
 	margin:0 auto;
 	width: 100px;
+}
 
-
+.description p {
+	padding: 0 20px;
 }
 
 
@@ -297,6 +299,7 @@ p {
     text-transform:uppercase;
     margin-bottom: 3px;
 }
+
 
 .subtitle {
 	font-size:20px;
@@ -475,6 +478,22 @@ border-bottom:1px solid #f1f1f1;
 		font-size: 18px;
 	}
 
+	.second-section h2, .third-section h2, .fourth-section h2 {
+		font-size:24px;
+	}
+
+	.second-section h2 {
+		margin-bottom:40px;
+	}
+
+	.subtitle {
+		font-size: 18px;
+	}
+
+	.main-card {
+		margin-bottom:50px;
+	}
+
 	.owl-dots {
 		display:none;
 	}
@@ -483,6 +502,14 @@ border-bottom:1px solid #f1f1f1;
 		    font-size: 25px;
     text-align: center;
     width: 100%;
+	}
+
+	.emergency {
+		bottom:50px;
+	}
+
+	footer .links-container {
+		text-align:center;
 	}
 
 }
@@ -494,7 +521,7 @@ border-bottom:1px solid #f1f1f1;
 	}
 
 	.main-text p {
-		font-size:12px;
+		font-size:16px;
 	}
 	
 }
