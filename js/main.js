@@ -21,6 +21,8 @@
     nav:true,
     autoplayHoverPause: true,
     items: 1,
+      mouseDrag: true,
+        touchDrag: false,
 
     navText : ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right' aria-hidden='true'></i>"],
     responsive:{
