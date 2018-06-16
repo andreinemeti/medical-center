@@ -1,0 +1,135 @@
+.breadcrumb {
+	margin-top:20px;
+	width:100%;
+	border-radius:0;
+}
+.title {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+.homepage-wrapper {
+	background:url("../img/garzi-spital.jpg");
+	height:400px;
+	    background-position: 100% 60%;
+	    position:relative;
+	    background-size:cover;
+}
+.list-group {
+	flex-direction:row;
+}
+
+.list-group-item {
+	display:flex;
+	align-items:center;
+}
+
+.tab-pane ul, .tab-pane li {
+	list-style-type:none;
+    padding-left: 0;
+}
+
+.tab-pane h3 {
+	position:relative;
+	display:inline-block;
+}
+
+.tab-pane h3:after {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    border-bottom: 1px solid #d4d4e0;
+    margin: 0 auto;
+   width: 105%;
+}
+.names {
+	margin-top:30px;
+}
+
+
+
+
+h1 {
+	margin-bottom: 80px;
+	position:relative;
+}
+
+h1:after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    content: '';
+    border-bottom: 4px solid blue;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media all and (max-width:1200px) {
+	.tab-content {
+		margin-top:30px;
+	}
+}
+@media all and (max-width:991px) {
+	.homepage-wrapper {
+		background-position: 50% 60%;
+	}
+
+	.list-group {
+		flex-direction:column;
+	}
+}
+
+@media all and (max-width:600px) {
+	.homepage-wrapper {
+		background-position: 76% 66%;
+    height: 300px;
+	}
+
+
+
+	 h1 {
+		font-size:28px;
+		margin-bottom:20px;
+	}
+
+	h3 {
+		font-size:20px;
+	}
+
+
+	.breadcrumb-item {
+		font-size:14px;
+	}
+
+	.tab-content {
+		margin-top:22px;
+	}
+
+	footer {
+		    margin-top: 50px;
+	}
+
+
+}
+
+
+@media all and (max-width:480px) {
+	 h1 {
+		font-size:26px;
+		margin-bottom:20px;
+	}
+
+	h3 {
+		font-size:18px;
+	}
+
+	.breadcrumb-item {
+		font-size:12px;
+	}
+
+	.tab-content {
+		margin-top:20px;
+	}
+}
+

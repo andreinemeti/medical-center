@@ -213,9 +213,10 @@ filter:opacity(.7);
 	text-align:left;
 }
 
-.main-text h1 {
+.main-text h1{
 	font-size:65px;
 	font-weight: 700;
+
 }
 
 .main-text p {
@@ -385,10 +386,9 @@ footer a:hover {
 
 
 
-.watermark {
+.watermark,.fa.fa-linkedin {
 	font-size:12px;
 	color:white;
-
 }
 
 
@@ -495,6 +495,8 @@ border-bottom:1px solid #f1f1f1;
 
 	.main-card {
 		margin-bottom:50px;
+		   
+
 	}
 
 	.owl-dots {

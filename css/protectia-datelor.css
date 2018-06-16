@@ -1,0 +1,109 @@
+.breadcrumb {
+	margin-top:20px;
+	width:100%;
+	border-radius:0;
+}
+.title {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+.homepage-wrapper {
+	background:url("../img/privacy.jpg");
+	height:400px;
+	background-size:cover;
+	    position:relative;
+}
+
+.homepage-wrapper:before {
+    position: absolute;
+    background: linear-gradient(to right, #090531, #ffffff);
+    opacity: .5;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+h1 {
+	margin-bottom: 80px;
+	position:relative;
+}
+
+h1:after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    content: '';
+    border-bottom: 4px solid blue;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media all and (max-width:1200px) {
+	.tab-content {
+		margin-top:30px;
+	}
+}
+@media all and (max-width:991px) {
+	.homepage-wrapper {
+		background-position: 50% 60%;
+	}
+}
+
+@media all and (max-width:600px) {
+	.homepage-wrapper {
+		background-position: 76% 66%;
+    height: 300px;
+	}
+
+
+
+	 h1 {
+		font-size:28px;
+		margin-bottom:20px;
+	}
+
+	h3 {
+		font-size:20px;
+	}
+
+
+	.breadcrumb-item {
+		font-size:14px;
+	}
+
+	.tab-content {
+		margin-top:22px;
+	}
+
+	footer {
+		    margin-top: 50px;
+	}
+
+
+}
+
+
+@media all and (max-width:480px) {
+	 h1 {
+		font-size:26px;
+		margin-bottom:20px;
+	}
+
+	h3 {
+		font-size:18px;
+	}
+
+	.breadcrumb-item {
+		font-size:12px;
+	}
+
+	.tab-content {
+		margin-top:20px;
+	}
+}
+
