@@ -11,8 +11,9 @@
 .homepage-wrapper {
 	background:url("../img/documente-pacienti.jpg");
 	height:400px;
-	    background-position: 100% 60%;
+	    background-position: 100% 100%;
 	    position:relative;
+	    background-attachment: fixed;
 }
 
 .homepage-wrapper:before {
@@ -71,7 +72,7 @@ h1:after {
 
 @media all and (max-width:600px) {
 	.homepage-wrapper {
-		background-position: 76% 66%;
+		background-position: 76% 120%;
     height: 300px;
 	}
 

@@ -60,6 +60,7 @@
 
 
 
+
 // var $nav = $(".navbar");
 // var lastScrollTop = 0;
 // $(window).scroll(function(event){

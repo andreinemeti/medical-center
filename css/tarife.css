@@ -1,18 +1,9 @@
-.breadcrumb {
-	margin-top:20px;
-	width:100%;
-	border-radius:0;
-}
-.title {
-	margin-top:50px;
-	margin-bottom:20px;
-}
-
 .homepage-wrapper {
 	background:url("../img/documente-pacienti.jpg");
 	height:400px;
-	    background-position: 100% 60%;
+	    background-position: 100% 100%;
 	    position:relative;
+	    background-attachment: fixed;
 }
 
 .homepage-wrapper:before {
@@ -26,14 +17,22 @@
     bottom: 0;
 }
 
+.breadcrumb {
+	margin-top:20px;
+	width:100%;
+	border-radius:0;
+}
+.title {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
 .list-group-item {
 	    align-items: center;
     display: flex;
     text-align: center;
     justify-content: center;
 }
-
-
 
 h1 {
 	margin-bottom: 80px;
@@ -55,11 +54,7 @@ h1:after {
 		margin-top:30px;
 	}
 }
-@media all and (max-width:991px) {
-	.homepage-wrapper {
-		background-position: 50% 60%;
-	}
-}
+
 
 @media all and (max-width:767px) {
 .list-group {
@@ -69,7 +64,7 @@ h1:after {
 
 @media all and (max-width:600px) {
 	.homepage-wrapper {
-		background-position: 76% 66%;
+		background-position: 76% 120%;
     height: 300px;
 	}
 

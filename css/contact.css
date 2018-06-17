@@ -1,18 +1,9 @@
-.breadcrumb {
-	margin-top:20px;
-	width:100%;
-	border-radius:0;
-}
-.title {
-	margin-top:50px;
-	margin-bottom:20px;
-}
-
 .homepage-wrapper {
 	background:url("../img/documente-pacienti.jpg");
 	height:400px;
-	    background-position: 100% 60%;
+	    background-position: 100% 100%;
 	    position:relative;
+	    background-attachment: fixed;
 }
 
 .homepage-wrapper:before {
@@ -27,6 +18,17 @@
 }
 
 
+.breadcrumb {
+	margin-top:20px;
+	width:100%;
+	border-radius:0;
+}
+.title {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+
 .fa-chevron-right {
 	position:relative;
 }
@@ -38,10 +40,6 @@
 .cta .btn.btn-danger:hover {
 	color:white;
 }
-
-
-
-
 
 h1 {
 	margin-bottom: 80px;
@@ -79,7 +77,7 @@ h1:after {
 
 @media all and (max-width:600px) {
 	.homepage-wrapper {
-		background-position: 76% 66%;
+		background-position: 76% 120%;
     height: 300px;
 	}
 
