@@ -119,6 +119,11 @@ body {
     background-size: cover;
 }
 
+.third-item {
+    background-image: url('../img/slider3.jpg');
+    background-size: cover;
+}
+
 /*controls*/
 
 .owl-nav {
@@ -492,6 +497,7 @@ footer a:hover {
 
     .main-card {
         margin-bottom: 50px;
+        
     }
 
     .owl-dots {
