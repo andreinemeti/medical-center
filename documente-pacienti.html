@@ -27,12 +27,14 @@
 
 <body id="left-nav" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
     <div class="main-wrapper">
+         <!-- ***************************************************   START HOMEPAGE-WRAPPER    *******************************************  -->
         <div class="homepage-wrapper">
+            <!-- NAV -->
             <nav class="navbar navbar-expand-md fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" height="40" alt="logo">Med Vita
-          </a>
+                        <img src="img/logo.png" height="40" alt="logo">Med Vita
+                    </a>
                     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -40,7 +42,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="services.html"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicii</a>
-                               <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
                                     <a class="dropdown-item" href="#">Imagistică</a>
                                     <a class="dropdown-item" href="#">RMN</a>
                                     <a class="dropdown-item" href="#">CT</a>
@@ -67,12 +69,20 @@
                     </div>
                 </div>
             </nav>
+            <!-- END NAV -->
+                 <!-- EMERGENCY SECTION -->
             <div class="emergency fadeInRight wow" data-wow-delay=".2s">
                 <p>Ai o urgență?</p>
                 <a href="tel:+40000000000000" class="btn btn-primary emergency-btn"><span class="text">Solicită o ambulanță</span><br/><span class="number">
                 +40 000003</span> </a>
             </div>
+            <!-- END EMERGENCY SECTION -->
+
         </div>
+        <!-- ***************************************************   END HOMEPAGE-WRAPPER    *******************************************  -->
+
+
+        <!-- ***************************************************   START SECOND-WRAPPER    *******************************************  -->
         <div class="container-fluid">
             <div class="row">
                 <nav aria-label="breadcrumb">
@@ -83,7 +93,7 @@
                 </nav>
             </div>
         </div>
-        <div class="container documents-wrapper">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 title">
                     <h1>Documente pacienți</h1>
@@ -99,9 +109,7 @@
                 <div class="col-xl-6 offset-xl-1 col-xs-12">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                            <h3>
-          Documente necesare pentru internare:
-        </h3>
+                            <h3>Documente necesare pentru internare:</h3>
                             <ul>
                                 <li>
                                     <a href="documente/exemplu_1.pdf">Exemplu 1</a>
@@ -118,9 +126,7 @@
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                            <h3>
-          Documente necesare pentru externare:
-        </h3>
+                            <h3>Documente necesare pentru externare:</h3>
                             <ul>
                                 <li>
                                     <a href="documente/exemplu_1.pdf">Exemplu 1</a>
@@ -143,9 +149,7 @@
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                            <h3>
-          Legislație
-        </h3>
+                            <h3>Legislație</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                             <ul>
                                 <li>
@@ -159,9 +163,7 @@
                                 </li>
                         </div>
                         <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                            <h3>
-          Alte informații:
-        </h3>
+                            <h3>Alte informații:</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <li>
                                 <a href="documente/exemplu_4.pdf">Exemplu 4</a>
@@ -177,7 +179,11 @@
                 </div>
             </div>
         </div>
-        <div class="fourth-section">
+        <!-- ***************************************************   END SECOND-WRAPPER    *******************************************  -->
+
+
+        <!-- ***************************************************   START THIRD-WRAPPER    *******************************************  -->
+        <div class="third-section">
             <div class="container-fluid cta">
                 <div class="row d-flex align-items-center">
                     <div class="left col-md-6  d-flex align-items-center justify-content-center flex-column">
@@ -195,16 +201,23 @@
                     </div>
                 </div>
             </div>
+
+
             <!-- Modal -->
             <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-labelledby="modalCtaLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
+
+                        <!--  MODAL HEADER -->
                         <div class="modal-header">
                             <h5 class="modal-title" id="modalCtaLabel">Programare Online</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
+                        <!--  END MODAL HEADER -->
+
+                        <!--  MODAL BODY -->
                         <div class="modal-body">
                             <form action="#">
                                 <div class="form-group">
@@ -238,85 +251,106 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                        <!--  END MODAL BODY -->
+                    </div> 
+                    <!--  END MODAL CONTENT -->
                 </div>
+                <!--  END MODAL DIALOG-->
             </div>
+           <!--  END MODAL -->
         </div>
-        <!-- END section -->
-        <!-- END section -->
-        <!-- start footer -->
+       <!-- ***************************************************   END THIRD-WRAPPER    *******************************************  -->
+
+
+
+
+      
+  <!-- ***************************************************   START  FOOTER    ******************************************************  -->
         <footer>
             <div class="container">
+
+                <!-- START ROW  -->
                 <div class="row d-flex justify-content-center">
+
+
+
+                    <!-- START COL  -->
                     <div class="col-lg-3 col-md-6 col-sm-6 links-container">
                         <h5>Informații utile</h5>
-                <ul>
-                  <li><a href="documente-pacienti.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Documente pacienți</a></li>
-                  <li><a href="protectia-datelor.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Protecția datelor</a></li>
-                  <li><a href="politica-de-confidentialitate.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Politica de confidențialitate</a></li>
-                  <li><a href="garzi-spital.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Gărzi spital</a></li>
-                </ul>               
-              
+                        <ul>
+                            <li><a href="documente-pacienti.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Documente pacienți</a></li>
+                            <li><a href="protectia-datelor.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Protecția datelor</a></li>
+                            <li><a href="politica-de-confidentialitate.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Politica de confidențialitate</a></li>
+                            <li><a href="garzi-spital.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Gărzi spital</a></li>
+                        </ul>
+                    </div>
+                    <!-- END COL  -->
+
+
+                    <!-- START COL  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 links-container">
+                        <h5>Link-uri utile</h5>
+                        <ul>
+                            <li><a href="http://scjucluj.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Cluj</a></li>
+                            <li><a href="http://www.spitalulconstanta.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Constanța</a></li>
+                            <li><a href="http://www.suub.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Ilfov</a></li>
+                            <li><a href="https://www.spitalmures.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Târgu-Mureș</a></li>
+                        </ul>
+                    </div>
+                    <!-- END COL  -->
+
+
+                    <!-- START COL  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 links-container">
+                        <h5>Parteneri</h5>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cambridge University</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Oxford University</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> New York Medical School</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ziarul medical Transilvanean</a></li>
+                        </ul>
+                    </div>
+                    <!-- END COL  -->
+
+
+                    <!-- START COL  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 links-container">
+                        <h5>Telefon garzi</h5>
+                        <ul>
+                            <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Urgențe |  +40000222</a></li>
+                            <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Chirurgie | +40000223</a></li>
+                            <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Neurologie | +40000224</a></li>
+                            <li>
+                                <a href="tel:+40000000000000"> <i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Ortopedie | +40000225</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END COL  -->
+
+                </div>
+                <!-- END ROW  -->
+
+
+                <!-- START BOTTOM ROW  -->
+                <div class="bottom row justify-content-center mt-5 text-center">
+                    <!-- START COL  -->
+                    <div class=" col-lg-6 col-md-12">
+                        <p class="footer-text">Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> Med Vita.</p>
+                        <a class="watermark" href="https://andreinemeti.github.io/" target="_blank">Coded by Andrei Nemeti <i class="fa fa-link" aria-hidden="true"></i></a>
+
+                        <a class="d-block text-center" href="https://www.linkedin.com/in/andrei-marian-nemeti/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- END COL  -->
+
+                </div>
+                <!-- END BOTTOM ROW  -->
             </div>
-
-
-            <div class="col-lg-3 col-md-6 col-sm-6 links-container">
-              
-                <h5>Link-uri utile</h5>
-                <ul>
-                  <li><a href="http://scjucluj.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Cluj</a></li>
-                  <li><a href="http://www.spitalulconstanta.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Constanța</a></li>
-                  <li><a href="http://www.suub.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Ilfov</a></li>
-                  <li><a href="https://www.spitalmures.ro/" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Spitalul Judetean Târgu-Mureș</a></li>
-                </ul>               
-              
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 links-container">
-              
-                <h5>Parteneri</h5>
-                <ul>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cambridge University</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Oxford University</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> New York Medical School</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ziarul medical Transilvanean</a></li>
-                </ul>               
-              
-            </div>
-
-
-          
-            <div class="col-lg-3 col-md-6 col-sm-6 links-container">
-              
-                <h5>Telefon garzi</h5>
-                <ul>
-                  <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Urgențe |  +40000222</a></li>
-                  <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Chirurgie | +40000223</a></li>
-                  <li><a href="tel:+40000000000000"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Neurologie | +40000224</a></li>
-                  <li><a href="tel:+40000000000000"> <i class="fa fa-angle-double-right" aria-hidden="true"></i> Secția Ortopedie | +40000225</a></li>
-                </ul>               
-              
-            </div>                                    
-                
-          </div>
-
-          <div class="bottom row justify-content-center mt-5 text-center">
-            <div class=" col-lg-6 col-md-12">
-            <p class="footer-text">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> Med Vita.</p>
-              <a class="watermark" href="https://andreinemeti.github.io/" target="_blank">
-                Coded by Andrei Nemeti <i class="fa fa-link" aria-hidden="true"></i></a>
-              </a>
-              <a class="d-block text-center" href="https://www.linkedin.com/in/andrei-marian-nemeti/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            
-              </div>
-        
-          </div>            
-        </div>
-      </footer> 
-      <!-- End footer Area -->  
-
-
+            <!-- END CONTAINER  -->
+        </footer>
+        <!-- ***************************************************   END  FOOTER    ******************************************************  -->
 
     </div><!--  end main-wrapper -->
 
